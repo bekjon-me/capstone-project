@@ -149,6 +149,7 @@
 #mentors .card {
   border: none;
   text-align: left;
+  min-height: 300px;
 }
 
 #mentors {

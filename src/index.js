@@ -64,7 +64,6 @@ const speakers = [
 
 /// window.load
 window.addEventListener('load', () => {
-  console.log('window loaded');
   speakers.forEach((speaker, index) => {
     cardTitles[index].textContent = speaker.name;
     cardTexts[index].textContent = speaker.title;

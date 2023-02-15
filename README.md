@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+[Loom video](https://www.loom.com/share/c2b42e11c3e049f78b51018272f221a6)
+
 <div align="center">
   <img src="./src/images/headerBg.avif" alt="logo" width="440"  height="auto" />
   <br/>

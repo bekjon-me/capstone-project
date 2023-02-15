@@ -78,7 +78,7 @@ This is the **Coding bootcamp**. You can learn software development here.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Online Version](https://bekjon-me.github.io/)
+- [Online Version](https://bekjon-me.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

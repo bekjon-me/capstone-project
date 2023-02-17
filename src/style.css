@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+.topBar ul {
+  background-color: #272a31;
+  padding: 10px 0;
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  z-index: 5;
+  padding-right: 130px;
+}
+
+.topBar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
 .navbar-brand > img {
   max-height: 50px;
   max-width: 50px;
@@ -12,13 +32,14 @@
 
 .navbar {
   box-shadow: 0 15px 10px -15px #111;
+  margin-top: 50px;
 }
 
 .navbar-nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  column-gap: 100px;
+  column-gap: 30px;
 }
 
 .header {
@@ -50,20 +71,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.footer-content p {
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-  color: #cacdd2;
-}
-
-.footer-bottom p {
-  float: left;
-  font-size: 14px;
-  word-spacing: 2px;
-}
-
 #header p {
   color: #fff;
   background: rgba(0, 0, 0, 0.397);
@@ -91,6 +98,12 @@
 
 #main .card p {
   color: #fff;
+}
+
+.images img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
 }
 
 #main .card img {
@@ -140,6 +153,14 @@
 
 .footer-menu ul li a:hover {
   color: #27bcda;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
 }
 
 #main > .container > a {
@@ -194,6 +215,7 @@ footer {
   padding-top: 40px;
   color: #d3d3d3;
   overflow-x: hidden;
+  padding-bottom: 40px;
 }
 
 .footer-content {

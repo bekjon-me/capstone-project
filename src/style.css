@@ -100,6 +100,12 @@
   color: #fff;
 }
 
+.images img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
 #main .card img {
   width: 80px;
   height: 80px;
@@ -155,12 +161,6 @@
   justify-content: center;
   align-items: center;
   column-gap: 40px;
-}
-
-.images img {
-  width: 200px;
-  height: 100%;
-  object-fit: cover;
 }
 
 #main > .container > a {

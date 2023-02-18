@@ -1,6 +1,7 @@
 let i = 0;
 const txt = 'Welcome to our online bootcamp'; /* The text */
 const speed = 100; /* The speed/duration of the effect in milliseconds */
+const hamburger = document.querySelector('#hamburger');
 
 function typeWriter() {
   if (i < txt.length) {
@@ -69,4 +70,16 @@ window.addEventListener('load', () => {
     descriptions[index].textContent = speaker.desciption;
     cardImages[index].src = speaker.image;
   });
+});
+
+let menuOpen = false;
+
+hamburger.addEventListener('click', () => {
+  if (!menuOpen) {
+    hamburger.innerHTML = `<i class="fas fa-window-close"></i>`;
+    menuOpen = true;
+  } else {
+    hamburger.innerHTML = `<i class="fas fa-bars"></i>`;
+    menuOpen = false;
+  }
 });

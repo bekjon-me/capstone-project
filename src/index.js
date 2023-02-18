@@ -76,10 +76,10 @@ let menuOpen = false;
 
 hamburger.addEventListener('click', () => {
   if (!menuOpen) {
-    hamburger.innerHTML = `<i class="fas fa-window-close"></i>`;
+    hamburger.innerHTML = '<i class="fas fa-window-close"></i>';
     menuOpen = true;
   } else {
-    hamburger.innerHTML = `<i class="fas fa-bars"></i>`;
+    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
     menuOpen = false;
   }
 });

@@ -201,6 +201,7 @@ footer p {
   justify-content: center;
   align-items: center;
   column-gap: 40px;
+  row-gap: 20px;
 }
 
 #main > .container > a {
@@ -222,10 +223,10 @@ footer p {
 #mentors .card .col-md-4 {
   align-items: flex-end;
   position: relative;
+  min-height: 250px;
 }
 
 #mentors .card img.chess {
-  position: absolute;
   top: 0;
   left: 0;
   height: 100px;
